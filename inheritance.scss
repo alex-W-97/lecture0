@@ -1,0 +1,37 @@
+%affiliation {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+}
+
+.republican {
+    @extend %affiliation;
+    font-family: Tahoma, Geneva, sans-serif;
+	color: red;
+}
+
+.democrat {
+    @extend %affiliation;
+    background-color: blue;
+}
+
+.democratic-republican {
+    @extend %affiliation;
+    background-color: blue;
+}
+
+.success {
+    @extend %affiliation;
+    background-color: green;
+}
+
+.warning {
+    @extend %affiliation;
+    background-color: orange;
+}
+
+.error {
+    @extend %affiliation;
+    background-color: red;
+}

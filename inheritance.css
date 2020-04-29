@@ -1,0 +1,26 @@
+.republican, .democrat, .democratic-republican, .success, .warning, .error {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 20px; }
+
+.republican {
+  font-family: Tahoma, Geneva, sans-serif;
+  color: red; }
+
+.democrat {
+  background-color: blue; }
+
+.democratic-republican {
+  background-color: blue; }
+
+.success {
+  background-color: green; }
+
+.warning {
+  background-color: orange; }
+
+.error {
+  background-color: red; }
+
+/*# sourceMappingURL=inheritance.css.map */
